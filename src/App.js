@@ -5,7 +5,7 @@ import { title } from "./sounds";
 
 function App() {
   useEffect(() => {
-    document.title = title;
+    document.title = title || "Soundboard";
   }, []);
 
   return (
