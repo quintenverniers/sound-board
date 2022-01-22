@@ -1,8 +1,8 @@
 :root {
   --main-bg: rgb(22, 22, 22);
-  --button-main: rgb(54, 133, 252);
-  --button-hover: rgb(33, 121, 253);
-  --button-active: rgb(6, 103, 250);
+  --button-main: #ee1c00;
+  --button-hover: #ce0000e5;
+  --button-active: #ce18009f;
 }
 
 body {
