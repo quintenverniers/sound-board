@@ -1,5 +1,6 @@
 import ButtonGrid from "./ButtonGrid";
 import "./Soundboard.css";
+import { title } from "../sounds";
 
 const Soundboard = () => {
   const stopSound = () => {
@@ -13,7 +14,7 @@ const Soundboard = () => {
   return (
     <div className="soundboard-container">
       <div className="soundboard-header">
-        <h1>Soundboard title</h1>
+        <h1>{title || "Soundboard"}</h1>
         <button className="soundboard-stop-button" onClick={stopSound}>
           stop playing
         </button>

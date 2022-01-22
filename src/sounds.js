@@ -11,6 +11,7 @@ import Swamp from "./assets/sounds/swamp.mp3";
 import WatchaSay from "./assets/sounds/WatchaSay.mp3";
 import Weee from "./assets/sounds/weee.mp3";
 
+const title = "Quinten's soundboard";
 const sounds = [
   {
     id: 1,
@@ -74,4 +75,4 @@ const sounds = [
   },
 ];
 
-export default sounds;
+export { title, sounds };
